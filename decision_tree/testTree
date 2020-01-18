@@ -1,0 +1,54 @@
+// The Decision Tree
+digraph {
+	3 [label="
+id: 3
+label: +
+entropy: 0.7219280948873623
+samples: 5
+classCounts: Counter({'+': 4, '-': 1})"]
+	4 [label="
+id: 4
+label: -
+entropy: 0
+samples: 1
+classCounts: Counter({'-': 1})"]
+	2 [label="
+id: 2
+attribute: color"]
+	5 [label="
+id: 5
+label: +
+entropy: 0
+samples: 2
+classCounts: Counter({'+': 2})"]
+	1 [label="
+id: 1
+attribute: shape"]
+	8 [label="
+id: 8
+label: -
+entropy: 0.9182958340544896
+samples: 6
+classCounts: Counter({'-': 4, '+': 2})"]
+	9 [label="
+id: 9
+label: +
+entropy: 0
+samples: 1
+classCounts: Counter({'+': 1})"]
+	7 [label="
+id: 7
+attribute: shape"]
+	10 [label="
+id: 10
+label: -
+entropy: 0
+samples: 1
+classCounts: Counter({'-': 1})"]
+	6 [label="
+id: 6
+attribute: color"]
+	0 [label="
+id: 0
+attribute: size"]
+}

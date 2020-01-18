@@ -1,0 +1,897 @@
+// The Decision Tree
+digraph {
+	5 [label="
+id: 5
+label: 7
+entropy: 0
+samples: 3
+classCounts: Counter({7: 3})
+value: dark"]
+	4 -> 5
+	6 [label="
+id: 6
+label: 1
+samples: 0
+classCount: Counter()"]
+	4 -> 6
+	8 [label="
+id: 8
+label: 1
+entropy: 0
+samples: 17
+classCounts: Counter({1: 17})
+value: dark"]
+	7 -> 8
+	9 [label="
+id: 9
+label: 1
+samples: 0
+classCount: Counter()"]
+	7 -> 9
+	10 [label="
+id: 10
+label: 1
+samples: 0
+classCount: Counter()"]
+	7 -> 10
+	7 [label="
+id: 7
+attribute: 41
+entropy: 0.7732266742876346
+samples: 22
+classCounts: Counter({1: 17, 4: 5})
+value: light"]
+	4 -> 7
+	4 [label="
+id: 4
+attribute: 27
+entropy: 1.6319667147428167
+samples: 34
+classCounts: Counter({1: 17, 4: 8, 7: 8, 8: 1})
+value: dark"]
+	3 -> 4
+	11 [label="
+id: 11
+label: 4
+samples: 0
+classCount: Counter()"]
+	3 -> 11
+	13 [label="
+id: 13
+label: 8
+entropy: 0
+samples: 1
+classCounts: Counter({8: 1})
+value: dark"]
+	12 -> 13
+	14 [label="
+id: 14
+label: 4
+samples: 0
+classCount: Counter()"]
+	12 -> 14
+	16 [label="
+id: 16
+label: 4
+samples: 0
+classCount: Counter()"]
+	15 -> 16
+	17 [label="
+id: 17
+label: 4
+samples: 0
+classCount: Counter()"]
+	15 -> 17
+	18 [label="
+id: 18
+label: 4
+entropy: 0
+samples: 22
+classCounts: Counter({4: 22})
+value: light"]
+	15 -> 18
+	15 [label="
+id: 15
+attribute: 4
+entropy: 0.24988229283318544
+samples: 24
+classCounts: Counter({4: 23, 0: 1})
+value: light"]
+	12 -> 15
+	12 [label="
+id: 12
+attribute: 19
+entropy: 0.6779825916086162
+samples: 43
+classCounts: Counter({4: 38, 9: 3, 0: 1, 8: 1})
+value: light"]
+	3 -> 12
+	3 [label="
+id: 3
+attribute: 18
+entropy: 1.672700748715537
+samples: 103
+classCounts: Counter({4: 62, 1: 23, 7: 10, 9: 4, 8: 2, 0: 1, 6: 1})
+value: dark"]
+	2 -> 3
+	19 [label="
+id: 19
+label: 4
+samples: 0
+classCount: Counter()"]
+	2 -> 19
+	22 [label="
+id: 22
+label: 7
+entropy: 0
+samples: 15
+classCounts: Counter({7: 15})
+value: dark"]
+	21 -> 22
+	23 [label="
+id: 23
+label: 7
+samples: 0
+classCount: Counter()"]
+	21 -> 23
+	25 [label="
+id: 25
+label: 4
+entropy: 0
+samples: 1
+classCounts: Counter({4: 1})
+value: dark"]
+	24 -> 25
+	26 [label="
+id: 26
+label: 9
+samples: 0
+classCount: Counter()"]
+	24 -> 26
+	27 [label="
+id: 27
+label: 9
+entropy: 0
+samples: 5
+classCounts: Counter({9: 5})
+value: light"]
+	24 -> 27
+	24 [label="
+id: 24
+attribute: 4
+entropy: 0.9910760598382222
+samples: 9
+classCounts: Counter({9: 5, 4: 4})
+value: light"]
+	21 -> 24
+	21 [label="
+id: 21
+attribute: 26
+entropy: 1.297376984093359
+samples: 33
+classCounts: Counter({7: 23, 9: 5, 4: 4, 2: 1})
+value: dark"]
+	20 -> 21
+	28 [label="
+id: 28
+label: 7
+samples: 0
+classCount: Counter()"]
+	20 -> 28
+	31 [label="
+id: 31
+label: 1
+entropy: 0
+samples: 1
+classCounts: Counter({1: 1})
+value: dark"]
+	30 -> 31
+	32 [label="
+id: 32
+label: 0
+samples: 0
+classCount: Counter()"]
+	30 -> 32
+	33 [label="
+id: 33
+label: 0
+entropy: 0
+samples: 18
+classCounts: Counter({0: 18})
+value: light"]
+	30 -> 33
+	30 [label="
+id: 30
+attribute: 13
+entropy: 0.2761954276479391
+samples: 21
+classCounts: Counter({0: 20, 1: 1})
+value: dark"]
+	29 -> 30
+	34 [label="
+id: 34
+label: 0
+samples: 0
+classCount: Counter()"]
+	29 -> 34
+	36 [label="
+id: 36
+label: 3
+entropy: 0
+samples: 2
+classCounts: Counter({3: 2})
+value: dark"]
+	35 -> 36
+	37 [label="
+id: 37
+label: 8
+samples: 0
+classCount: Counter()"]
+	35 -> 37
+	40 [label="
+id: 40
+label: 1
+entropy: 0
+samples: 1
+classCounts: Counter({1: 1})
+value: dark"]
+	39 -> 40
+	41 [label="
+id: 41
+label: 5
+samples: 0
+classCount: Counter()"]
+	39 -> 41
+	42 [label="
+id: 42
+label: 5
+entropy: 0
+samples: 1
+classCounts: Counter({5: 1})
+value: light"]
+	39 -> 42
+	39 [label="
+id: 39
+attribute: 5
+entropy: 1.0
+samples: 2
+classCounts: Counter({5: 1, 1: 1})
+value: dark"]
+	38 -> 39
+	43 [label="
+id: 43
+label: 8
+samples: 0
+classCount: Counter()"]
+	38 -> 43
+	44 [label="
+id: 44
+label: 8
+entropy: 0
+samples: 6
+classCounts: Counter({8: 6})
+value: light"]
+	38 -> 44
+	38 [label="
+id: 38
+attribute: 13
+entropy: 0.9864267287308424
+samples: 9
+classCounts: Counter({8: 7, 5: 1, 1: 1})
+value: light"]
+	35 -> 38
+	35 [label="
+id: 35
+attribute: 26
+entropy: 1.7804463148460088
+samples: 17
+classCounts: Counter({8: 10, 1: 2, 9: 2, 3: 2, 5: 1})
+value: light"]
+	29 -> 35
+	29 [label="
+id: 29
+attribute: 28
+entropy: 2.109561325326674
+samples: 41
+classCounts: Counter({0: 20, 8: 10, 1: 3, 9: 3, 5: 2, 3: 2, 7: 1})
+value: light"]
+	20 -> 29
+	20 [label="
+id: 20
+attribute: 60
+entropy: 2.6292722937443385
+samples: 100
+classCounts: Counter({7: 34, 0: 23, 8: 12, 4: 9, 9: 9, 5: 5, 1: 4, 3: 3, 2: 1})
+value: light"]
+	2 -> 20
+	2 [label="
+id: 2
+attribute: 10
+entropy: 2.5055157881350367
+samples: 288
+classCounts: Counter({4: 104, 7: 71, 1: 38, 0: 27, 8: 19, 9: 15, 5: 8, 3: 3, 6: 2, 2: 1})
+value: dark"]
+	1 -> 2
+	45 [label="
+id: 45
+label: 4
+samples: 0
+classCount: Counter()"]
+	1 -> 45
+	48 [label="
+id: 48
+label: 6
+entropy: 0
+samples: 91
+classCounts: Counter({6: 91})
+value: dark"]
+	47 -> 48
+	49 [label="
+id: 49
+label: 6
+samples: 0
+classCount: Counter()"]
+	47 -> 49
+	52 [label="
+id: 52
+label: 8
+entropy: 0
+samples: 2
+classCounts: Counter({8: 2})
+value: dark"]
+	51 -> 52
+	53 [label="
+id: 53
+label: 8
+samples: 0
+classCount: Counter()"]
+	51 -> 53
+	54 [label="
+id: 54
+label: 8
+samples: 0
+classCount: Counter()"]
+	51 -> 54
+	51 [label="
+id: 51
+attribute: 30
+entropy: 1.5
+samples: 4
+classCounts: Counter({8: 2, 0: 1, 9: 1})
+value: dark"]
+	50 -> 51
+	55 [label="
+id: 55
+label: 8
+samples: 0
+classCount: Counter()"]
+	50 -> 55
+	57 [label="
+id: 57
+label: 2
+entropy: 0
+samples: 4
+classCounts: Counter({2: 4})
+value: dark"]
+	56 -> 57
+	58 [label="
+id: 58
+label: 2
+samples: 0
+classCount: Counter()"]
+	56 -> 58
+	59 [label="
+id: 59
+label: 8
+entropy: 0
+samples: 3
+classCounts: Counter({8: 3})
+value: light"]
+	56 -> 59
+	56 [label="
+id: 56
+attribute: 26
+entropy: 1.4056390622295665
+samples: 8
+classCounts: Counter({2: 4, 8: 3, 9: 1})
+value: light"]
+	50 -> 56
+	50 [label="
+id: 50
+attribute: 12
+entropy: 2.099598313565133
+samples: 24
+classCounts: Counter({8: 9, 2: 6, 0: 5, 9: 2, 3: 2})
+value: light"]
+	47 -> 50
+	47 [label="
+id: 47
+attribute: 13
+entropy: 1.3259515856046518
+samples: 125
+classCounts: Counter({6: 94, 8: 11, 0: 9, 2: 6, 9: 3, 3: 2})
+value: dark"]
+	46 -> 47
+	60 [label="
+id: 60
+label: 6
+samples: 0
+classCount: Counter()"]
+	46 -> 60
+	63 [label="
+id: 63
+label: 8
+entropy: 0
+samples: 1
+classCounts: Counter({8: 1})
+value: dark"]
+	62 -> 63
+	64 [label="
+id: 64
+label: 3
+samples: 0
+classCount: Counter()"]
+	62 -> 64
+	66 [label="
+id: 66
+label: 9
+samples: 0
+classCount: Counter()"]
+	65 -> 66
+	67 [label="
+id: 67
+label: 9
+samples: 0
+classCount: Counter()"]
+	65 -> 67
+	68 [label="
+id: 68
+label: 9
+entropy: 0
+samples: 5
+classCounts: Counter({9: 5})
+value: light"]
+	65 -> 68
+	65 [label="
+id: 65
+attribute: 10
+entropy: 0.8112781244591328
+samples: 8
+classCounts: Counter({9: 6, 8: 2})
+value: light"]
+	62 -> 65
+	62 [label="
+id: 62
+attribute: 21
+entropy: 1.561278124459133
+samples: 16
+classCounts: Counter({3: 6, 9: 6, 8: 4})
+value: dark"]
+	61 -> 62
+	69 [label="
+id: 69
+label: 1
+samples: 0
+classCount: Counter()"]
+	61 -> 69
+	72 [label="
+id: 72
+label: 1
+entropy: 0
+samples: 15
+classCounts: Counter({1: 15})
+value: dark"]
+	71 -> 72
+	73 [label="
+id: 73
+label: 1
+samples: 0
+classCount: Counter()"]
+	71 -> 73
+	74 [label="
+id: 74
+label: 2
+entropy: 0
+samples: 4
+classCounts: Counter({2: 4})
+value: light"]
+	71 -> 74
+	71 [label="
+id: 71
+attribute: 10
+entropy: 0.7732266742876346
+samples: 22
+classCounts: Counter({1: 17, 2: 5})
+value: dark"]
+	70 -> 71
+	75 [label="
+id: 75
+label: 1
+samples: 0
+classCount: Counter()"]
+	70 -> 75
+	77 [label="
+id: 77
+label: 1
+entropy: 0
+samples: 13
+classCounts: Counter({1: 13})
+value: dark"]
+	76 -> 77
+	78 [label="
+id: 78
+label: 1
+samples: 0
+classCount: Counter()"]
+	76 -> 78
+	79 [label="
+id: 79
+label: 1
+samples: 0
+classCount: Counter()"]
+	76 -> 79
+	76 [label="
+id: 76
+attribute: 41
+entropy: 0.6402064333604701
+samples: 17
+classCounts: Counter({1: 15, 4: 1, 8: 1})
+value: light"]
+	70 -> 76
+	70 [label="
+id: 70
+attribute: 34
+entropy: 1.2436716140875383
+samples: 48
+classCounts: Counter({1: 36, 2: 6, 8: 3, 9: 2, 4: 1})
+value: light"]
+	61 -> 70
+	61 [label="
+id: 61
+attribute: 52
+entropy: 2.0298090760645584
+samples: 82
+classCounts: Counter({1: 45, 8: 10, 9: 10, 3: 7, 2: 7, 4: 2, 0: 1})
+value: light"]
+	46 -> 61
+	46 [label="
+id: 46
+attribute: 20
+entropy: 2.4393280343333656
+samples: 247
+classCounts: Counter({6: 103, 1: 47, 8: 31, 9: 20, 2: 18, 3: 13, 0: 12, 4: 3})
+value: light"]
+	1 -> 46
+	1 [label="
+id: 1
+attribute: 61
+entropy: 3.049906013401305
+samples: 668
+classCounts: Counter({4: 129, 6: 117, 1: 100, 0: 76, 8: 74, 7: 71, 9: 45, 2: 23, 3: 22, 5: 11})
+value: dark"]
+	0 -> 1
+	80 [label="
+id: 80
+label: 3
+samples: 0
+classCount: Counter()"]
+	0 -> 80
+	85 [label="
+id: 85
+label: 3
+entropy: 0
+samples: 13
+classCounts: Counter({3: 13})
+value: dark"]
+	84 -> 85
+	86 [label="
+id: 86
+label: 3
+samples: 0
+classCount: Counter()"]
+	84 -> 86
+	87 [label="
+id: 87
+label: 3
+entropy: 0
+samples: 8
+classCounts: Counter({3: 8})
+value: light"]
+	84 -> 87
+	84 [label="
+id: 84
+attribute: 5
+entropy: 0.21084230031853213
+samples: 30
+classCounts: Counter({3: 29, 2: 1})
+value: dark"]
+	83 -> 84
+	88 [label="
+id: 88
+label: 3
+samples: 0
+classCount: Counter()"]
+	83 -> 88
+	90 [label="
+id: 90
+label: 9
+samples: 0
+classCount: Counter()"]
+	89 -> 90
+	91 [label="
+id: 91
+label: 9
+samples: 0
+classCount: Counter()"]
+	89 -> 91
+	92 [label="
+id: 92
+label: 9
+entropy: 0
+samples: 1
+classCounts: Counter({9: 1})
+value: light"]
+	89 -> 92
+	89 [label="
+id: 89
+attribute: 3
+entropy: 1.0
+samples: 2
+classCounts: Counter({9: 1, 8: 1})
+value: light"]
+	83 -> 89
+	83 [label="
+id: 83
+attribute: 19
+entropy: 0.8390141432168297
+samples: 47
+classCounts: Counter({3: 40, 2: 3, 9: 2, 8: 2})
+value: dark"]
+	82 -> 83
+	93 [label="
+id: 93
+label: 2
+samples: 0
+classCount: Counter()"]
+	82 -> 93
+	96 [label="
+id: 96
+label: 2
+entropy: 0
+samples: 15
+classCounts: Counter({2: 15})
+value: dark"]
+	95 -> 96
+	97 [label="
+id: 97
+label: 2
+samples: 0
+classCount: Counter()"]
+	95 -> 97
+	98 [label="
+id: 98
+label: 2
+entropy: 0
+samples: 18
+classCounts: Counter({2: 18})
+value: light"]
+	95 -> 98
+	95 [label="
+id: 95
+attribute: 4
+entropy: 0.15374218032876188
+samples: 45
+classCounts: Counter({2: 44, 8: 1})
+value: dark"]
+	94 -> 95
+	99 [label="
+id: 99
+label: 2
+samples: 0
+classCount: Counter()"]
+	94 -> 99
+	100 [label="
+id: 100
+label: 7
+entropy: 0
+samples: 7
+classCounts: Counter({7: 7})
+value: light"]
+	94 -> 100
+	94 [label="
+id: 94
+attribute: 34
+entropy: 0.7578043140260268
+samples: 60
+classCounts: Counter({2: 51, 7: 7, 1: 1, 8: 1})
+value: light"]
+	82 -> 94
+	82 [label="
+id: 82
+attribute: 43
+entropy: 1.6908810250249464
+samples: 126
+classCounts: Counter({2: 65, 3: 43, 7: 7, 8: 7, 9: 2, 1: 1, 5: 1})
+value: dark"]
+	81 -> 82
+	101 [label="
+id: 101
+label: 2
+samples: 0
+classCount: Counter()"]
+	81 -> 101
+	104 [label="
+id: 104
+label: 5
+entropy: 0
+samples: 30
+classCounts: Counter({5: 30})
+value: dark"]
+	103 -> 104
+	105 [label="
+id: 105
+label: 5
+samples: 0
+classCount: Counter()"]
+	103 -> 105
+	107 [label="
+id: 107
+label: 5
+entropy: 0
+samples: 3
+classCounts: Counter({5: 3})
+value: dark"]
+	106 -> 107
+	108 [label="
+id: 108
+label: 5
+samples: 0
+classCount: Counter()"]
+	106 -> 108
+	110 [label="
+id: 110
+label: 1
+entropy: 0
+samples: 2
+classCounts: Counter({1: 2})
+value: dark"]
+	109 -> 110
+	111 [label="
+id: 111
+label: 1
+samples: 0
+classCount: Counter()"]
+	109 -> 111
+	112 [label="
+id: 112
+label: 3
+entropy: 0
+samples: 1
+classCounts: Counter({3: 1})
+value: light"]
+	109 -> 112
+	109 [label="
+id: 109
+attribute: 4
+entropy: 0.9182958340544896
+samples: 3
+classCounts: Counter({1: 2, 3: 1})
+value: light"]
+	106 -> 109
+	106 [label="
+id: 106
+attribute: 53
+entropy: 1.3221793455166666
+samples: 11
+classCounts: Counter({5: 6, 1: 4, 3: 1})
+value: light"]
+	103 -> 106
+	103 [label="
+id: 103
+attribute: 19
+entropy: 0.7935644431995964
+samples: 64
+classCounts: Counter({5: 56, 1: 4, 2: 1, 8: 1, 9: 1, 3: 1})
+value: dark"]
+	102 -> 103
+	113 [label="
+id: 113
+label: 5
+samples: 0
+classCount: Counter()"]
+	102 -> 113
+	116 [label="
+id: 116
+label: 9
+entropy: 0
+samples: 6
+classCounts: Counter({9: 6})
+value: dark"]
+	115 -> 116
+	117 [label="
+id: 117
+label: 9
+samples: 0
+classCount: Counter()"]
+	115 -> 117
+	119 [label="
+id: 119
+label: 7
+samples: 0
+classCount: Counter()"]
+	118 -> 119
+	120 [label="
+id: 120
+label: 7
+samples: 0
+classCount: Counter()"]
+	118 -> 120
+	121 [label="
+id: 121
+label: 7
+entropy: 0
+samples: 1
+classCounts: Counter({7: 1})
+value: light"]
+	118 -> 121
+	118 [label="
+id: 118
+attribute: 3
+entropy: 1.0
+samples: 2
+classCounts: Counter({7: 1, 4: 1})
+value: light"]
+	115 -> 118
+	115 [label="
+id: 115
+attribute: 43
+entropy: 1.061278124459133
+samples: 8
+classCounts: Counter({9: 6, 7: 1, 4: 1})
+value: dark"]
+	114 -> 115
+	122 [label="
+id: 122
+label: 9
+samples: 0
+classCount: Counter()"]
+	114 -> 122
+	123 [label="
+id: 123
+label: 0
+entropy: 0
+samples: 2
+classCounts: Counter({0: 2})
+value: light"]
+	114 -> 123
+	114 [label="
+id: 114
+attribute: 38
+entropy: 1.8743968275792584
+samples: 22
+classCounts: Counter({9: 10, 0: 7, 7: 2, 5: 2, 4: 1})
+value: light"]
+	102 -> 114
+	102 [label="
+id: 102
+attribute: 21
+entropy: 1.8979809492686712
+samples: 94
+classCounts: Counter({5: 59, 9: 12, 0: 7, 1: 5, 8: 5, 7: 3, 4: 1, 2: 1, 3: 1})
+value: light"]
+	81 -> 102
+	81 [label="
+id: 81
+attribute: 26
+entropy: 2.6525486213820706
+samples: 262
+classCounts: Counter({2: 70, 5: 67, 3: 49, 9: 19, 7: 19, 8: 19, 1: 9, 0: 9, 4: 1})
+value: light"]
+	0 -> 81
+	0 [label="
+id: 0
+attribute: 2
+entropy: 3.321026677106508
+samples: 1257
+classCounts: Counter({3: 133, 7: 131, 4: 131, 0: 127, 1: 126, 6: 124, 2: 123, 8: 121, 9: 121, 5: 120})"]
+}

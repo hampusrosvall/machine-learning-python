@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+MNIST_Light/
+flowers/
+flowers_split/
+*.h5
+.idea/
+conlleval/
+introMaterial/
+*.pdf
+data/
+glove.6B/
